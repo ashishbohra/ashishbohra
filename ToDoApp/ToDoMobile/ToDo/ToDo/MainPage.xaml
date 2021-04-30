@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToDo.MainPage">
+
+    <ContentPage.Content>
+
+        <StackLayout>
+            <Label Text="My Lists" HorizontalOptions="CenterAndExpand" Margin="10,40,10,0" FontSize = "20" FontAttributes="Bold"/>
+
+            <StackLayout VerticalOptions="EndAndExpand" Orientation="Vertical" Spacing="2" Padding="2">
+            
+                <Picker x:Name="TODoListPiker" 
+                        HorizontalOptions="FillAndExpand" 
+                        WidthRequest="100"
+                        SelectedIndexChanged="TODoListPiker_SelectedIndexChanged">
+                </Picker>
+                <Button Text="Open"
+                        x:Name="OpenToDOById"
+                        HorizontalOptions="CenterAndExpand" 
+                        BackgroundColor="AntiqueWhite" 
+                        TextColor="Black" 
+                        Clicked="OpenToDOById_Clicked"/>
+                <Label x:Name="ErrorMesasge" Text="Please select list from dropdown" HorizontalOptions="CenterAndExpand"  FontAttributes="Bold"    TextColor="Red" />
+            </StackLayout>
+            <StackLayout VerticalOptions="EndAndExpand" Orientation="Horizontal" Spacing="3" Padding="2">
+            
+                <Button Text="Create New" 
+                        x:Name="CreateNewList_btn"
+                        HorizontalOptions="FillAndExpand" 
+                        BackgroundColor="AntiqueWhite" 
+                        TextColor="Black" 
+                        Clicked="CreateNewList_btn_Clicked"
+                        />
+            
+                <Button Text="Delete List" 
+                        x:Name="DeleteToDOList_item"
+                        HorizontalOptions="FillAndExpand" 
+                        BackgroundColor="AntiqueWhite" 
+                        TextColor="Black" 
+                        Clicked="DeleteToDOList_item_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

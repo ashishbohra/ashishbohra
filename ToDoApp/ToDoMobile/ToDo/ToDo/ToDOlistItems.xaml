@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToDo.ToDOlistItems">
+    <StackLayout>
+
+        <Label Text="To Do Lists" x:Name="ToDoList_HeaderText"
+       TextTransform="Default" HorizontalOptions="CenterAndExpand" Margin="10,40,10,0" FontSize = "20" FontAttributes="Bold"/>
+
+
+        <StackLayout VerticalOptions="Fill" 
+                     Orientation="Vertical" Spacing="5" Padding="5">
+            <ListView x:Name="SelectedTODOList_Itmes">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Entry Text="{Binding ToDoListItem}"   Placeholder="edit New list Item" PlaceholderColor="#DCDCDC" HorizontalOptions="FillAndExpand"></Entry>
+                                <Entry Text="{Binding priority}" Placeholder="edit priority"  PlaceholderColor="#DCDCDC" HorizontalOptions="Fill" WidthRequest="100" Keyboard="Numeric"></Entry>
+
+                                <Button Text="Delete" 
+                                     CommandParameter="{Binding ToDoListId}"
+                                    HorizontalOptions="FillAndExpand" 
+                                    TextColor="Black" 
+                                    Clicked="Delete_Clicked"    />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <StackLayout Orientation="Horizontal">
+                <Entry Text="" x:Name="NewEntryTOAddToListItem" Placeholder="Add New list Item"  PlaceholderColor="#DCDCDC" HorizontalOptions="FillAndExpand" TextChanged="NewEntryTOAddToListItem_TextChanged"></Entry>
+                <Entry Text="" x:Name="NewEntryTOAddToListpriority" Placeholder="set priority"  PlaceholderColor="#DCDCDC" HorizontalOptions="Fill" TextChanged="NewEntryTOAddToListpriority_TextChanged" WidthRequest="100" Keyboard="Numeric"></Entry>
+                <Button Text="Add" 
+                    x:Name="AddToDOList_item"
+                    HorizontalOptions="FillAndExpand" 
+                    BackgroundColor="AntiqueWhite" 
+                    TextColor="Black" 
+                    Clicked="AddToDOList_item_Clicked"    />
+            
+            </StackLayout>
+            <Label x:Name="ErrorMesasge" Text="New entry feilds can not be blank" HorizontalOptions="CenterAndExpand"  FontAttributes="Bold"    TextColor="Red" />
+        </StackLayout>
+        <StackLayout VerticalOptions="EndAndExpand" Orientation="Horizontal" Spacing="3" Padding="2">
+            <Button Text="Back" 
+                    x:Name="backTOMain"
+                    HorizontalOptions="FillAndExpand" 
+                    BackgroundColor="AntiqueWhite" 
+                    TextColor="Black"
+                    Clicked="backTOMain_Clicked" />
+            <Button Text="Save" 
+                    x:Name="SaveToDOList_item"
+                    HorizontalOptions="FillAndExpand" 
+                    BackgroundColor="AntiqueWhite" 
+                    TextColor="Black" 
+                    Clicked="SaveToDOList_item_Clicked"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

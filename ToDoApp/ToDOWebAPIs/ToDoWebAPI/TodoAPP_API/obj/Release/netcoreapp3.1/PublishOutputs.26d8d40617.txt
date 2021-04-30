@@ -1,0 +1,13 @@
+E:\WorkSpace\Upwork\xarminapp\xarminapp\ToDOWebAPIs\ToDoWebAPI\TodoAPP_API\obj\Release\netcoreapp3.1\PubTmp\Out\TodoAPP_API.exe
+E:\WorkSpace\Upwork\xarminapp\xarminapp\ToDOWebAPIs\ToDoWebAPI\TodoAPP_API\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+E:\WorkSpace\Upwork\xarminapp\xarminapp\ToDOWebAPIs\ToDoWebAPI\TodoAPP_API\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+E:\WorkSpace\Upwork\xarminapp\xarminapp\ToDOWebAPIs\ToDoWebAPI\TodoAPP_API\obj\Release\netcoreapp3.1\PubTmp\Out\TodoAPP_API.dll
+E:\WorkSpace\Upwork\xarminapp\xarminapp\ToDOWebAPIs\ToDoWebAPI\TodoAPP_API\obj\Release\netcoreapp3.1\PubTmp\Out\TodoAPP_API.deps.json
+E:\WorkSpace\Upwork\xarminapp\xarminapp\ToDOWebAPIs\ToDoWebAPI\TodoAPP_API\obj\Release\netcoreapp3.1\PubTmp\Out\TodoAPP_API.runtimeconfig.json
+E:\WorkSpace\Upwork\xarminapp\xarminapp\ToDOWebAPIs\ToDoWebAPI\TodoAPP_API\obj\Release\netcoreapp3.1\PubTmp\Out\TodoAPP_API.pdb
+E:\WorkSpace\Upwork\xarminapp\xarminapp\ToDOWebAPIs\ToDoWebAPI\TodoAPP_API\obj\Release\netcoreapp3.1\PubTmp\Out\System.Data.SqlClient.dll
+E:\WorkSpace\Upwork\xarminapp\xarminapp\ToDOWebAPIs\ToDoWebAPI\TodoAPP_API\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+E:\WorkSpace\Upwork\xarminapp\xarminapp\ToDOWebAPIs\ToDoWebAPI\TodoAPP_API\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-x64\native\sni.dll
+E:\WorkSpace\Upwork\xarminapp\xarminapp\ToDOWebAPIs\ToDoWebAPI\TodoAPP_API\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-x86\native\sni.dll
+E:\WorkSpace\Upwork\xarminapp\xarminapp\ToDOWebAPIs\ToDoWebAPI\TodoAPP_API\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\WorkSpace\Upwork\xarminapp\xarminapp\ToDOWebAPIs\ToDoWebAPI\TodoAPP_API\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

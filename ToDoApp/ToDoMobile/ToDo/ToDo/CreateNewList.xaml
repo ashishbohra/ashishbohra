@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToDo.CreateNewList">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Create New List" HorizontalOptions="CenterAndExpand" Margin="10,40,10,0" FontSize = "20" FontAttributes="Bold"/>
+
+            <StackLayout VerticalOptions="CenterAndExpand" Orientation="Vertical" Spacing="2" Padding="2">
+
+                <Entry  VerticalOptions="CenterAndExpand" Placeholder="Add newlist"  PlaceholderColor="#DCDCDC" x:Name="NewToDoList"  TextChanged="NewToDoList_TextChanged" />
+                <Button Text="Create"
+                    x:Name="CreateToDoList"
+                    HorizontalOptions="CenterAndExpand" 
+                    BackgroundColor="AntiqueWhite" 
+                    TextColor="Black" 
+                        Clicked="CreateToDoList_Clicked"/>
+
+                <Label x:Name="ErrorMesasge" Text="List Name can not be blank"  HorizontalOptions="CenterAndExpand"  FontAttributes="Bold"    TextColor="Red" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
